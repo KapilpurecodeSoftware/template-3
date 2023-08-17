@@ -1,0 +1,20 @@
+
+
+h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: gray;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+span{
+    /* color: rgb(130, 130, 224); */
+}
+
+/* .settings{
+    color: rgb(130, 130, 224);
+} */

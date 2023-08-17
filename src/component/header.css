@@ -1,0 +1,75 @@
+
+.header {
+    background: rgb(54, 49, 49);
+    color: #fff;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between; /* This will push the logo and company name to the start and the navbar items to the end */
+   
+    
+  }
+  
+  .flagImg {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem; /* You can adjust this value as needed */
+  }
+  
+  .usaFlag {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* This will add the same space as 'space-x-9' in Tailwind CSS */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .dashboard{
+  
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ddd;
+    border: none;
+   margin-right: 13px;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  
+  .header-items {
+    display: flex;
+    padding: 10px;
+    align-items: center; /* To center the items vertically */
+  }
+  
+  .downArrowHeader{
+    font-size: 12px;
+    margin: 5px;
+  }
+  .adminIcon{
+    color: rgb(226, 132, 54);
+  }
+  .textIcons{
+    font-size: 12px;
+    margin: 5px;
+  }

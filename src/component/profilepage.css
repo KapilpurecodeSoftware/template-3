@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   max-width: 1000px;
+   margin-left: 150px;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-left {
+   
+    display: flex;
+    flex-direction: column;     
+           
+}
+.navbar-subtext {
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 3px;
+    gap: 5px;
+}
+
+.navbar-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar-subtext .profile {
+    /* Your styles for the profile div */
+    color: #3328cfea; /* For example, change text color to orange */
+   
+}

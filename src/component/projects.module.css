@@ -1,0 +1,108 @@
+
+
+.projects_container{
+    display: flex;
+    justify-content: space-between;
+    margin-left:20px;
+}
+
+/* Persnal Info CSS */
+
+.persInfo_container{
+    width: 50%;
+    font-size: smaller;
+    /* border: 1.4px solid rgb(214, 214, 214); */
+}
+.persInfo_sub_container{
+    width: 100%;
+    border: 1.4px solid rgb(214, 214, 214);
+    font-size: smaller;
+}
+
+.persInfo_title{
+    border-bottom: 1.4px dashed rgb(180, 180, 180);
+    padding:0 10px;
+    margin: 0;
+    font-size:small;
+}
+
+.persInfo_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    /* justify-content: space-between; */
+    
+}
+
+
+/* About CSS */
+
+.about_container{
+    width: 32%;
+    margin: 0;
+    padding: 0;
+}
+
+.about_title{
+    border-bottom: 1.4px dashed rgb(180, 180, 180);
+    padding:0 10px;
+    margin: 0;
+    font-size: 10px;
+}
+.about_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px 20px;
+    /* justify-content: space-between; */
+    
+}
+.about_icon_ct{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 5px;
+}
+.about_icon_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 2px;
+}
+
+
+.about_icon_div{
+    width: 26px;
+    height: 26px;
+    margin: 2px;
+}
+
+.about_hr_icons{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.contact_circle_icon_box{
+border-radius: 100%;
+border: 1px solid gray; 
+padding: 2px;
+
+}
+
+
+/* Cntact CSS */
+.contact_icon_ct{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.contact_icon_div{
+    width: 18px;
+    height: 18px;
+}

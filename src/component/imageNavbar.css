@@ -1,0 +1,76 @@
+
+.profile_container{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.profile_sub_container{
+    width: 84%;
+    margin: auto;
+}
+
+.profile_hr{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.profile_btn{
+    padding: 8px 12px;
+    font-size: smaller;
+    border-radius: 5px;
+    background-color: rgb(119, 119, 253);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.profile_bg_container{
+    width: 100%;
+    position: relative;
+}
+
+.profile_bg_color{
+    width: 100%;
+    height: 110px;
+    background: rgb(235,169,62);
+background: linear-gradient(90deg, rgba(235,169,62,0.9976365546218487) 0%, rgba(244,244,244,1) 50%, rgba(64,19,135,0.9836309523809523) 100%);
+}
+
+.profile_user{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 45%;
+}
+
+.profile_img_box{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.profile_img{
+    width: 100%;
+    height: 100%;
+}
+
+.profile_bar{
+    margin:0 ;
+    margin-top: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgb(235, 232, 232);
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+}
+
